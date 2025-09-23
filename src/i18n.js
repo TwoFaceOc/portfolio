@@ -155,7 +155,7 @@ const resources = {
       messageFailed: "فشل في الإرسال ❌",
 
       // Footer
-      footerText: "© 2025 أشرف عق. جميع الحقوق محفوظة.",
+      footerText: "© 2025 أشرف اولاد شعرة. جميع الحقوق محفوظة.",
 
       // Language Toggle
       language: "اللغة",
