@@ -86,10 +86,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">{t('phone')}</h4>
                   <a
-                    href="tel:+212604028065"
+                    href="tel:#"
                     className="[direction:ltr] [unicode-bidi:isolate] text-muted-foreground hover:text-primary transition-colors "
                   >
-                    +212604028065
+                    +2126xxxxxxxx
                   </a>
                 </div>
               </div>
