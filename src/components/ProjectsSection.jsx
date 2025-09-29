@@ -13,23 +13,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Car Rental",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A responsive car rental website with easy booking and a user-friendly design",
+    image: "/projects/rentcar.png",
+    tags: ["React.js", "Tailwind", "Next.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "3D website v1",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "The site uses the latest technology and is still under development.",
+    image: "/projects/robotjs.png",
+    tags: ["Next.js", "Three.js", "React.js","Tailwind"],
+    demoUrl: "https://roobot-three.vercel.app/",
+    githubUrl: "https://github.com/TwoFaceOc/Roobot",
   },
 ];
 

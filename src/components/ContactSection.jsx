@@ -79,7 +79,7 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              {/* <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
@@ -89,10 +89,10 @@ export const ContactSection = () => {
                     href="tel:#"
                     className="[direction:ltr] [unicode-bidi:isolate] text-muted-foreground hover:text-primary transition-colors "
                   >
-                    +2126xxxxxxxx
+                    xxxxxxxxx
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
@@ -100,7 +100,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">{t('location')}</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Morocco
+                    WorldWide
                   </a>
                 </div>
               </div>
@@ -115,9 +115,10 @@ export const ContactSection = () => {
                 <a href="https://x.com/achraf_oc" target="_blank">
                   <Twitter />
                 </a>
-                <a href="https://www.instagram.com/ach_coding/" target="_blank">
+                <a href="https://www.instagram.com/ach.coding/" target="_blank">
                   <Instagram />
                 </a>
+                <a href="https://www.snapchat.com/@achcoding" target="_blank"><img className="w-7" src="/projects/icons8-snapchat-100.png"/></a>
               </div>
             </div>
           </div>

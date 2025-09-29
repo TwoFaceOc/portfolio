@@ -50,7 +50,8 @@ const resources = {
       tools: "Tools",
 
       // Projects Section
-      projectsTitle: "Featured Projects",
+      projectsTitle: "Featured",
+      projectsTitle2: " Projects",
       projectsDescription:
         "Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience.",
       checkGithub: "Check My Github",
