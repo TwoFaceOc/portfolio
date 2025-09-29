@@ -6,11 +6,13 @@ import {
   Phone,
   Send,
   Twitter,
+  Ghost,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { SiSnapchat } from 'react-icons/si';
 import emailjs from "emailjs-com"; 
 export const ContactSection = () => {
   const { t } = useTranslation();
@@ -118,7 +120,7 @@ export const ContactSection = () => {
                 <a href="https://www.instagram.com/ach.coding/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="https://www.snapchat.com/@achcoding" target="_blank"><img className="w-7" src="/projects/icons8-snapchat-100.png"/></a>
+                <a href="https://www.snapchat.com/@achcoding" target="_blank"><SiSnapchat size={24} /></a>
               </div>
             </div>
           </div>
